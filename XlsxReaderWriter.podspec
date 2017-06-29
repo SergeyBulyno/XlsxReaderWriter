@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.license            = "MIT"
   s.author             = "René Bigot"
   s.social_media_url   = "https://www.linkedin.com/in/renebigot"
-  s.platforms = { :ios => "7.0",:osx => "10.12" }
-  s.source             = { :git => "https://github.com/renebigot/XlsxReaderWriter.git", :tag => s.version.to_s }
+  s.osx.deployment_target  = '10.12’	
+  s.source             = { :git => "https://github.com/SergeyBulyno/XlsxReaderWriter.git", :tag => s.version.to_s }
   s.source_files       = "XlsxReaderWriter/*.{h,m}"
   s.exclude_files      = "ThirdParties"
   s.frameworks         = "Foundation"
